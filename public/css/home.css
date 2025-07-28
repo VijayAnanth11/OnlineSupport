@@ -1,0 +1,135 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dp-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.dpimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+.nav-login{
+    display: flex;
+    justify-content: end;
+}
+.nav-row{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0.5rem;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgba(240, 248, 255, 0.478);
+}
+.content{
+    padding: 2rem;
+}
+.content-header-add{
+    display: flex;
+    justify-content: end;
+}
+.content-check-status{
+    display: flex;
+    align-items: center;
+}
+.check-status-txt{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+.form-status{
+    margin-left: 1rem;
+    display: flex;
+}
+.table{
+    margin-top: 1rem;
+}
+h3 {
+    font-weight: 700;
+}
+.apple {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/p4.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.apple h1 {
+    font-family: "Lobster", sans-serif;
+}
+
+.news {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news input::placeholder {
+    color: white;
+}
+
+.news p {
+    margin: 0;
+}
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.edit-content{
+    display: flex;
+    justify-content: center;
+}
+.section-center{
+    height: 300px;
+}
+.btn-success{
+    margin-left: 0.3rem;
+}
+.card{
+    box-shadow: -2px -1px 10px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 10px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 10px -4px rgba(0, 0, 0, 0.75);
+}
